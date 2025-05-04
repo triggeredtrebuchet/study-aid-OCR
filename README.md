@@ -38,3 +38,8 @@ A Streamlit-powered application that helps students and learners organize study 
  ```bash
    git clone https://github.com/yourusername/study-assistant.git
    cd study-assistant
+
+   venv\Scripts\activate
+   pip install -r requirenments.txt
+   streamlit run main.py
+ 
