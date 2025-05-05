@@ -36,7 +36,7 @@ A Streamlit-powered application that helps students and learners organize study 
 
 1. Clone the repository:
  ```bash
-   git clone https://github.com/yourusername/study-assistant.git
+   https://github.com/felicjawarno/study-aid.git
    cd study-assistant
 
    venv\Scripts\activate
