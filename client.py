@@ -10,6 +10,15 @@ genai.configure(api_key="API_KEY")
 # Create model instance
 model = genai.GenerativeModel("gemini-2.0-flash")
 
+def generate_answer(question):
+    """Generates an answer to a question using Google GenAI and returns the answer."""
+    if not question.strip():
+        return "No question provided."
+
+    # Call generate_text from client.py
+    answer = model.generate_content(contents=question).text
+    return answer
+
 def ask_question_on_notes(question, notes_text):
     """Sends a question and notes to Google GenAI and returns the answer."""
     if not notes_text.strip():
